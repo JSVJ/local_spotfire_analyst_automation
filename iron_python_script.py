@@ -14,7 +14,7 @@ import datetime
 from System import DateTime
 
 # RELOAD ALL THE DATA (IF NEEDED)
-# Document.Data.Tables.ReloadAllData()
+Document.Data.Tables.ReloadAllData()
 
 # Declaring the function which will run async
 def g(app,fileName,pdfexpsettings):

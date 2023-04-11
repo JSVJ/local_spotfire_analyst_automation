@@ -39,7 +39,7 @@ Document.ActivePageReference = PAGE
 	# Document.ActivePageReference = page
 
 pdfexpsettings = PdfExportSettings()
-pdfexpsettings.Scope = ExportScope.ActivePage
+pdfexpsettings.Scope = ExportScope.AllPages
 pdfexpsettings.PageOrientation = PageOrientation.Landscape
 pdfexpsettings.IncludePageTitles = True
 pdfexpsettings.IncludeVisualizationTitles = True

@@ -1,8 +1,3 @@
-$(function() {
-    
-    setInterval(
-      function()
-      {
-        $("#load :first-child").click();
-      }, 1800000);
-    });
+setInterval(function () {
+  $("#load :first-child").click();
+}, 300000);

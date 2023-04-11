@@ -1,0 +1,6 @@
+sent_files.txt
+dummy.dxp
+screenshotsTEST_2023_4_10__19_10_19.pdf
+TEST_2023_4_11__8_14_3.pdf
+TEST_2023_4_11__8_48_9.pdf
+TEST_2023_4_11__8_43_56.pdf

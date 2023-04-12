@@ -19,7 +19,9 @@ EMAIL_SENDER = declarations.EMAIL_SENDER
 EMAIL_PASSWORD = declarations.EMAIL_PASSWORD
 # If there are multiple reciepients, seperate them by comma
 EMAIL_RECEIVER = declarations.EMAIL_RECEIVER
-
+EMAIL_RECEIVER_STRING = ", ".join(EMAIL_RECEIVER) # receivers email ID
+print(EMAIL_RECEIVER)
+print(EMAIL_RECEIVER_STRING)
 
 file_list = [f for f in os.listdir(path = FILE_PATH)]
 sent_path = os.path.join(FILE_PATH, SENT_FILE)
@@ -65,7 +67,7 @@ if file_unsent_list:
         ATTACHMENT = destination_file_path
         email_message = MIMEMultipart()
         email_message['From'] = EMAIL_SENDER
-        email_message['To'] = EMAIL_RECEIVER
+        email_message['To'] = EMAIL_RECEIVER_STRING
         email_message['Subject'] = SUBJECT
         body_part = MIMEText(EMAIL_BODY_TEXT, 'plain')
         email_message.attach(body_part)

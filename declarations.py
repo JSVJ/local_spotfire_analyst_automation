@@ -8,4 +8,4 @@ EMAIL_BODY_TEXT = r'' # The text to be shown in the email BODY
 EMAIL_SENDER = r'' # sender's email ID
 EMAIL_PASSWORD = r'' # password from the google API.
 # If there are multiple reciepients, seperate them by comma
-EMAIL_RECEIVER = r'' # receivers email ID
+EMAIL_RECEIVER = ["emailA", "emailB", "emailC"]
